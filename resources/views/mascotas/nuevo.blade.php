@@ -67,7 +67,7 @@
             </div>
 
             <div class="form-group row required">
-                {{ $errors->first('nombre','<span class="invalid-feedback">:message</span>') }}
+
              </div>
 
             </div>
