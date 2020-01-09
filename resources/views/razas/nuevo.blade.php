@@ -23,7 +23,7 @@
                         <li>{{ $error }}</li>
                     @endforeach
                 </ul>
-            </div>
+            </div>{{ $errors->first('nombre','<span class="invalid-feedback">:message</span>') }}
             @endif
 
             <form method="POST" action="{{ route('Raza.guardar') }}" enctype="multipart/form-data">
